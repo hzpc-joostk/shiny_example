@@ -6,11 +6,11 @@ shinyUI(bootstrapPage(
               selected = 20),
 
   checkboxInput(inputId = "individual_obs",
-                label = strong("Show individual observations"),
+                label = strong("Plot individual observations"),
                 value = FALSE),
 
   checkboxInput(inputId = "density",
-                label = strong("Show density estimate"),
+                label = strong("Plot density estimate"),
                 value = FALSE),
 
   plotOutput(outputId = "main_plot", height = "300px"),
